@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-/*
-font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif;
-*/
-
 *{
   padding: 0;
   margin: 0;
@@ -15,7 +10,6 @@ html{
   font-size: 15px;
 }
 
-
 body {
   background-color: #090B1A;
   color: #FFF;
@@ -25,7 +19,7 @@ body {
 }
 
 main{
-  font-family: 'inter';
+ font-family: 'Inter', sans-serif;
   width: 20.9rem;
   margin: 4rem 0;
   background-color: hsl(244, 38%, 16%);
@@ -34,28 +28,25 @@ main{
 }
 
 .image{
-  background-size: cover;
-}
+  height: 15.3rem;
+  border-radius: 10px 10px 0 0;
+  background-color: hsl(277, 64%, 61%);  
+} 
 
 .image img{
-  height: 100%;
   width: 100%;
-  border-radius: 10px 10px 0 0;
+  height: 100%;
+  background-size: cover;
+  mix-blend-mode: multiply;  
 }
 
-.color-overlay{
-  position: relative;
-  bottom: 354px;
-  border-radius: 10px 10px 0 0;
-  opacity: 0.5;
-  height: 100%;
-  width: 374px;
-  background-color: hsl(277, 64%, 61%);
-  
+.info{
+  padding: 2.5rem 1.6rem;
 }
 
 h2{
   font-size: 1.7rem;
+  margin-bottom: 1.2rem;
 }
 
 h2 span{
@@ -63,53 +54,45 @@ h2 span{
 }
 
 .info-txt{
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 0.03rem;
-  font-size; 22px;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
   line-height: 28px;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.stats{
-  margin-top: 20px;
+.itm{
+  margin-bottom: 2rem;
 }
 
 .itm span{
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  font-size: 25px;
-  margin-top:;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .itm p{
-  font-family: 'Lexend Deca', sans-serif;
-  font-size: 14px;
-  margin-top: 0px;
-  font-weight: normal;
+  margin-top: 0.4rem;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
   color: hsla(0, 0%, 100%, 0.6);
-
+  font-weight: 400;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
-@media (min-width: 1140px){
-  .container{
-    margin-top: 100px;
-    height: 25rem;
-  }
-  
-  .card{
+@media (min-width: 800px){
+  main{
     display: flex;
-    flex-direction: row-reverse;
-    height: 90%;
-    width: 950px;
+    flex-direction: row;
   }
   
   .image{
+    
     height: 100%;
     width: 50%;
+    border-radius: 0 10px 10px 0;
   }
   
   .image img{
-    border-radius: 0 10px 10px 0;
+    
   }
   
   .stats{
@@ -142,22 +125,4 @@ h2 span{
     bottom: 364px;
     border-radius: 0 10px 10px 0;
   }
-}
-
-
-
-footer{
-  padding: 10px;
-}
-
-.attribution { 
-  font-size: 15x; 
-  margin-top: 10px;
-  text-align: center;
-}
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
-  text-decoration: none;
-  font-family: 'Lexend Deca', sans-serif;
-  color: hsl(277, 64%, 61%)
 }
