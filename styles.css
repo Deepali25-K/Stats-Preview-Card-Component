@@ -36,7 +36,7 @@ main{
 .image{
   height: 100%;
   width: 100%;
-  background-image: url("https://i.ibb.co/DGj6p3J/image-header-mobile.jpg");
+  background-image: url("/images/image-header-mobile.jpg");
   background-size: cover;
   mix-blend-mode: multiply;
   border-radius: 10px 10px 0 0;
@@ -102,7 +102,7 @@ h2 span{
   }
   
   .image{
-    background-image: url("https://i.ibb.co/jZnXZBZ/image-header-desktop.jpg");
+    background-image: url("/images/image-header-desktop.jpg");
     background-size: cover;
     border-radius: 0 10px 10px 0;
   }
