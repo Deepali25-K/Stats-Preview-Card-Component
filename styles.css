@@ -48,12 +48,12 @@ main{
   padding: 2.5rem 3rem;
 }
 
-h2{
+h1{
   font-size: 1.9rem;
   margin-bottom: 1.2rem;
 }
 
-h2 span{
+h1 span{
   color: hsl(277, 64%, 61%);
 }
 
@@ -68,12 +68,12 @@ h2 span{
   margin-bottom: 2rem;
 }
 
-.itm span{
+.itm p{
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.itm p{
+.itm p:last-child{
   margin-top: 0.4rem;
   letter-spacing: 0.1rem;
   font-size: 0.9rem;
@@ -81,7 +81,6 @@ h2 span{
   font-weight: 400;
   font-family: 'Lexend Deca', sans-serif;
 }
-
 
 @media (min-width: 768px){
   body{
@@ -119,7 +118,7 @@ h2 span{
     gap: 2.8rem;
   }
   
-  h2{
+  h1{
     font-size: 2.4rem;
   }
   
